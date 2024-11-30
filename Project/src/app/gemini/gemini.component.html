@@ -1,0 +1,12 @@
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+<div class="card">
+    <div class="card-header">
+        <label for="solution" class="display-6" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" >Gemini says:</label>
+        <p class="card-body" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: large;">{{solution}}</p>
+        
+    </div>
+</div>
+
+<app-bing [prompt]="prompt" *ngIf="next"></app-bing>
